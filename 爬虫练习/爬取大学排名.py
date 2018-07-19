@@ -17,7 +17,7 @@ def fillText(html):                     #将网页内容整理成列表
     allt = []
     for tr in allTr:
         if len(allTr)==0:
-            continue6
+            continue
         textt = []
         allTd = tr.find_all('td') 
         for td in allTd:

@@ -1,6 +1,6 @@
 import requests
 import os
-url = "http://p2.cri.cn/M00/96/09/CqgNOlsMeBGAEEnvAAAAAAAAAAA356.660x330.jpg"
+url = "https://pic.ibaotu.com/00/63/40/91K888piChdI.mp4"
 root = "D://360安全浏览器下载//"     #给定文件路径
 path = root + url.split('/')[-1]     #给文件命名
 try:
@@ -17,3 +17,4 @@ try:
         print("文件已经存在")
 except:
     print("爬取失败")
+    #<a href="javascript:;" src="//pic.ibaotu.com/00/63/40/91K888piChdI.mp4"
