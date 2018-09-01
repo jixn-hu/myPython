@@ -44,8 +44,10 @@
 	
 5. **修改pipelines.py:**
 
+
+	- 创建一个ImagePipeline类
 	- 创建一个MongoPipeline类，用来将信息保存的mongodb中
-	- 创建一个ImagePipeline类，
+	
 
 - **项目结果图：**
 - 
